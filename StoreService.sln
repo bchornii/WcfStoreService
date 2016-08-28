@@ -1,0 +1,119 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDomain", "ServiceDomain\ServiceDomain.csproj", "{1584FE83-6939-4087-AC98-EEFB7F02FD6E}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceObjectAccess", "ServiceObjectAccess\ServiceObjectAccess.csproj", "{313E4686-E974-484D-BF64-22263825782B}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemovableClient", "RemovableClient\RemovableClient.csproj", "{CE765BE4-8671-44C8-A604-14AB476A6F40}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1584FE83-6939-4087-AC98-EEFB7F02FD6E} = {1584FE83-6939-4087-AC98-EEFB7F02FD6E}
+	EndProjectSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinesObjectAccess", "BussinesObjectAccess\BussinesObjectAccess.csproj", "{34718A46-1203-482E-9F4B-A718909BA0E5}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessDomain", "BussinessDomain\BussinessDomain.csproj", "{19389BCE-C1CF-4DDA-8C53-963CD5F9C4A1}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceExtensions", "ServiceExtensions\ServiceExtensions.csproj", "{93D447D4-B5A0-489A-B756-B4AEDCCC7FFF}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceDomainLayer", "ServiceDomainLayer", "{30D694B7-A48E-470B-93E7-DEFF38E8193B}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BussinnessDomainLayer", "BussinnessDomainLayer", "{AF914B11-9AE6-4FE0-B3BB-75FD9C0B3C86}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDomain", "DataDomain\DataDomain.csproj", "{9F5F4FD6-CD7E-4322-9F64-7C4A7E3AB0C0}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataDomainLayer", "DataDomainLayer", "{23E86BB7-95E6-49BA-A5EB-C053747F9052}"
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1584FE83-6939-4087-AC98-EEFB7F02FD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1584FE83-6939-4087-AC98-EEFB7F02FD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1584FE83-6939-4087-AC98-EEFB7F02FD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1584FE83-6939-4087-AC98-EEFB7F02FD6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313E4686-E974-484D-BF64-22263825782B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313E4686-E974-484D-BF64-22263825782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313E4686-E974-484D-BF64-22263825782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313E4686-E974-484D-BF64-22263825782B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE765BE4-8671-44C8-A604-14AB476A6F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE765BE4-8671-44C8-A604-14AB476A6F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE765BE4-8671-44C8-A604-14AB476A6F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE765BE4-8671-44C8-A604-14AB476A6F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34718A46-1203-482E-9F4B-A718909BA0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34718A46-1203-482E-9F4B-A718909BA0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34718A46-1203-482E-9F4B-A718909BA0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34718A46-1203-482E-9F4B-A718909BA0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19389BCE-C1CF-4DDA-8C53-963CD5F9C4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19389BCE-C1CF-4DDA-8C53-963CD5F9C4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19389BCE-C1CF-4DDA-8C53-963CD5F9C4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19389BCE-C1CF-4DDA-8C53-963CD5F9C4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D447D4-B5A0-489A-B756-B4AEDCCC7FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D447D4-B5A0-489A-B756-B4AEDCCC7FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D447D4-B5A0-489A-B756-B4AEDCCC7FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D447D4-B5A0-489A-B756-B4AEDCCC7FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5F4FD6-CD7E-4322-9F64-7C4A7E3AB0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5F4FD6-CD7E-4322-9F64-7C4A7E3AB0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5F4FD6-CD7E-4322-9F64-7C4A7E3AB0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5F4FD6-CD7E-4322-9F64-7C4A7E3AB0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1584FE83-6939-4087-AC98-EEFB7F02FD6E} = {30D694B7-A48E-470B-93E7-DEFF38E8193B}
+		{313E4686-E974-484D-BF64-22263825782B} = {30D694B7-A48E-470B-93E7-DEFF38E8193B}
+		{34718A46-1203-482E-9F4B-A718909BA0E5} = {AF914B11-9AE6-4FE0-B3BB-75FD9C0B3C86}
+		{19389BCE-C1CF-4DDA-8C53-963CD5F9C4A1} = {AF914B11-9AE6-4FE0-B3BB-75FD9C0B3C86}
+		{93D447D4-B5A0-489A-B756-B4AEDCCC7FFF} = {30D694B7-A48E-470B-93E7-DEFF38E8193B}
+		{9F5F4FD6-CD7E-4322-9F64-7C4A7E3AB0C0} = {23E86BB7-95E6-49BA-A5EB-C053747F9052}
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+EndGlobal

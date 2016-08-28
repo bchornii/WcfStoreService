@@ -1,0 +1,19 @@
+﻿using ServiceStore.BussinesObjectAccess;
+using StoreService.DataDomain;
+
+namespace ServiceStore.BussinessDomain
+{
+    public class ProductLogic
+    {
+        ProductDAO productDao = new ProductDAO();
+        public ProductBDO GetProduct(int id)
+        {
+            return productDao.GetProduct(id);
+        }
+
+        public bool UpdateProduct(ProductBDO product, ref string message)
+        {
+            return productDao.UpdateProduct(product, ref message);
+        }
+    }
+}
